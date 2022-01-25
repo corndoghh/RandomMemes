@@ -9,7 +9,10 @@ body{
 .NAvbar{
     /* Navbar Part */
     float: none;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 8px 500px;
     background-color:lightskyblue;
     overflow: hidden;
@@ -17,6 +20,11 @@ body{
     border-style: solid;
     
 }
+
+.NAVbar > a {
+    text-decoration: none;
+}
+
 .NAVbar ul a:hover {
     text-decoration: black;
  }
@@ -64,15 +72,29 @@ img{
 .quoted b{
     font-size: 90%;
 }
+
 h3{
     font-size: 150%;
     color:white;
 }
-button{
+
+
+button {
     font-size: 200%;
-    border-radius: 12px;
-    background-color: rgb(245, 245, 245);
-    border-width: thick;
+    position: absolute;
+    border: 1px solid rgb(245, 245, 245);
     color: black;
+    transition: background-color 0.2s;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+
 }
 
+button:hover {
+    cursor: pointer;
+    border: 2px solid black;
+
+}
