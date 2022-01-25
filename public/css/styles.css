@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+
+
 body{
     /*how the whole website is supposed to*/
+    font-family: 'Be Vietnam Pro', sans-serif;
     background-color:#F3A5A5;
     padding: 0;
     margin: 0;
@@ -8,30 +13,33 @@ body{
 }
 .NAvbar{
     /* Navbar Part */
-    float: none;
+    position: fixed;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color:lightskyblue;
+
+    
+}
+
+.NAvbar ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 8px 500px;
-    background-color:lightskyblue;
-    overflow: hidden;
-    text-decoration-color: black;
-    border-style: solid;
-    
+    padding: 0;
 }
 
-.NAVbar > a {
+.NAvbar ul a {
+    color: black;
+    flex: 1 1 20%;
     text-decoration: none;
 }
 
-.NAVbar ul a:hover {
+.NAvbar ul a:hover {
     text-decoration: black;
  }
-.meow{ 
-    background-color:#F3A5A5;
 
-}
 h1{
     float: center;
     font-size: 500%;   
