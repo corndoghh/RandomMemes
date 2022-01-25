@@ -1,0 +1,78 @@
+body{
+    /*how the whole website is supposed to*/
+    background-color:#F3A5A5;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: black;
+}
+.NAvbar{
+    /* Navbar Part */
+    float: none;
+    display: block;
+    padding: 8px 500px;
+    background-color:lightskyblue;
+    overflow: hidden;
+    text-decoration-color: black;
+    border-style: solid;
+    
+}
+.NAVbar ul a:hover {
+    text-decoration: black;
+ }
+.meow{ 
+    background-color:#F3A5A5;
+
+}
+h1{
+    float: center;
+    font-size: 500%;   
+}
+.meow p{
+    font-size: 120%;
+    text-align: center;
+    text-transform: inherit;
+}
+h2{
+    font-size: 500%;  
+}
+.meme1{
+    margin-right: 50px;
+    margin: 70px;
+}
+img{
+    color: black;
+    
+   margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-width:thick;
+
+  }
+
+
+.quoted{
+    background-color:darkslategray; 
+    color: white;
+    
+}
+.quoted p{
+    font-size: 250%;
+}
+.quoted b{
+    font-size: 90%;
+}
+h3{
+    font-size: 150%;
+    color:white;
+}
+button{
+    font-size: 200%;
+    border-radius: 12px;
+    background-color: rgb(245, 245, 245);
+    border-width: thick;
+    color: black;
+}
+
